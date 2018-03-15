@@ -1,18 +1,13 @@
 #include <iostream>
 //#include "mail180219.cpp"
-#include "mail180226.cpp"
-#include "dp_fibonacci.cpp"
+//#include "dp_fibonacci.cpp"
+#include "dp_lis.cpp"
+//#include "mail180226.cpp"
 
 using namespace std;
 
 int main() {
-//    printSumOfEvenFibonacci();
-    int result = getFibonacci(10);
-    cout << (result < 0 ? "error" : to_string(result)) << endl;
-    result = getFibonacci(8);
-    cout << (result < 0 ? "error" : to_string(result)) << endl;
-    result = getFibonacci(40);
-    cout << (result < 0 ? "error" : to_string(result)) << endl;
+    printLIS({10, 85, 20, 40, 60, 25, 20, 50, 30, 70});
     return 0;
 }
 
