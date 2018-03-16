@@ -15,6 +15,7 @@ vector<int> getNeededFibonacciVector(int N) {
     return fibonacci;
 }
 
+/* Add 3k+2 elements */
 int getSumOfEvenFibonacci(int N) {
     vector<int> fibonacci = getNeededFibonacciVector(N);
     int idx = fibonacci.size();
