@@ -6,12 +6,13 @@
 //#include "mail180305_trial.cpp"
 //#include "mail180305.cpp"
 //#include "mail180312.cpp"
-#include "mail180319_trial.cpp"
+//#include "mail180319_trial.cpp"
+#include "mail180319.cpp"
 
 using namespace std;
 
 int main() {
-    printTargetComb({2, 5, 6, 1, 10}, 8);
+    printTargetComb({2, 5, 6, 3, 10}, 8);
     return 0;
 }
 
