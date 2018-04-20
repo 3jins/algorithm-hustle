@@ -7,12 +7,13 @@
 //#include "mail180305.cpp"
 //#include "mail180312.cpp"
 //#include "mail180319_trial.cpp"
-#include "mail180319.cpp"
+//#include "mail180319.cpp"
+#include "mail180326.cpp"
 
 using namespace std;
 
 int main() {
-    printTargetComb({2, 5, 6, 3, 10}, 8);
+    printMergedArrays();
     return 0;
 }
 
