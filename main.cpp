@@ -8,12 +8,14 @@
 //#include "mail180312.cpp"
 //#include "mail180319_trial.cpp"
 //#include "mail180319.cpp"
-#include "mail180326.cpp"
+//#include "mail180326.cpp"
+#include "mail180402.cpp"
 
 using namespace std;
 
 int main() {
-    printMergedArrays();
+    printInvertedString("abc 123 apple");
+//    printInvertedString("apple");
     return 0;
 }
 
