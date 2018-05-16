@@ -10,20 +10,17 @@
 //#include "mail180319.cpp"
 //#include "mail180326.cpp"
 //#include "mail180402.cpp"
-#include "mail180409.cpp"
+//#include "mail180409.cpp"
+#include "mail180416.cpp"
 using namespace std;
 
 int main() {
-    int arr1[] = {10, 5, 4, 3, -1};
-    int arrSize = sizeof(arr1) / sizeof(arr1[0]);
-    vector<int> varr1;
-    for (int i = 0; i < arrSize; i++) {
-        varr1.emplace_back(arr1[i]);
+    vector<int> vec = {0, 5, 0, 3, -1};
+//    vector<int> vec = {3, 0, 3};
+    vector<int> result = moveZerosToBack(vec);
+    for(int rst : result) {
+        cout << rst << " ";
     }
-    vector<int> varr2 = {3, 3, 3};
-
-    printSecondLarge(varr1);
-    printSecondLarge(varr2);
     return 0;
 }
 
