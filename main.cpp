@@ -14,13 +14,14 @@
 //#include "mail180409.cpp"
 //#include "mail180416.cpp"
 //#include "bj7576_trial.cpp"
-#include "bj2606.cpp"
+//#include "bj2606.cpp"
+#include "bj2667.cpp"
 using namespace std;
 
 
 
 int main() {
-    printNumInfected();
+    bfs();
     return 0;
 }
 
