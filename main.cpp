@@ -15,13 +15,14 @@
 //#include "mail180416.cpp"
 //#include "bj7576_trial.cpp"
 //#include "bj2606.cpp"
-#include "bj2667.cpp"
+//#include "bj2667.cpp"
+//#include "bj2589.cpp"
+#include "bj11053.cpp"
+
 using namespace std;
 
-
-
 int main() {
-    bfs();
+    printLISSize();
     return 0;
 }
 
