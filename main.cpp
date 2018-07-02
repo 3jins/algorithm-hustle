@@ -17,12 +17,13 @@
 //#include "bj2606.cpp"
 //#include "bj2667.cpp"
 //#include "bj2589.cpp"
-#include "bj11053.cpp"
+//#include "bj11053.cpp"
+#include "bj1753.cpp"
 
 using namespace std;
 
 int main() {
-    printLISSize();
+    printShortestPaths();
     return 0;
 }
 
