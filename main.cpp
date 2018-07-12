@@ -1,23 +1,22 @@
 #include <iostream>
-#include "linked_list.h"
-//#include "binary_tree.h"
+#include <vector>
+//#include "linked_list.h"
+#include "binary_tree.h"
 
 using namespace std;
 
+template <typename T>
+void printVector(vector<T> v) {
+    typename vector<T>::iterator iter;
+    for(iter = v.begin(); iter != v.end(); iter++) {
+        cout << *iter << " ";
+    }
+    cout << endl;
+}
+
 int main() {
-    LinkedList<int> list = LinkedList<int>();
-    cout << list.isEmpty() << endl;
-    list.add(30);
-    list.add(10);
-    list.add(1, 20);
-    cout << list.get(0) << endl;
-    cout << list.get(1) << endl;
-    cout << list.get(2) << endl;
-    cout << list.get(3) << endl;
-    list.remove(1);
-    cout << list.get(0) << endl;
-    cout << list.get(1) << endl;
-    cout << list.get(2) << endl;
-    cout << list.size() << endl;
+    BinaryTree<char> tree = BinaryTree<char>();
+    tree.buildTree(tree.getRoot(), {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'});
+    printVector(tree.preorderTraversal(tree.getRoot()));
     return 0;
 }
