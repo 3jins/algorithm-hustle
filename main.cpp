@@ -5,7 +5,7 @@
 using namespace std;
 
 int main() {
-    LinkedList list = LinkedList();
+    LinkedList<int> list = LinkedList<int>();
     cout << list.isEmpty() << endl;
     list.add(30);
     list.add(10);
