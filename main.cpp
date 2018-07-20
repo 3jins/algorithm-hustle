@@ -1,12 +1,14 @@
 #include <iostream>
-#include <vector>
-#include "vector_util.h"
+#include "invertable_binary_tree.h"
+#include "mail18.cpp"
 
 using namespace std;
 
 int main() {
-    vector<int> v = {1, 2, 3, 4};
-    printVector(v, " ");
-    printVector(v);
+    InvertableBinaryTree<char> tree = InvertableBinaryTree<char>();
+    tree.buildTree(tree.getRoot(), {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'});
+    printVector(tree.preorderTraversal(tree.getRoot()), " ");
+    tree = invertTree(tree);
+    printVector(tree.preorderTraversal(tree.getRoot()), " ");
     return 0;
 }
