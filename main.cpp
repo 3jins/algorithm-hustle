@@ -1,9 +1,9 @@
 #include <iostream>
-#include "pr12899.cpp"
-
+#include "pr12905.cpp"
 using namespace std;
 
 int main() {
-    cout << solution(200) << endl;
+    vector<vector<int>> testCase = {{1, 0, 1, 1, 1, 0}, {1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1}, {1, 0, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1}, {1, 1, 0, 1, 1, 1}};
+    cout << solution(testCase) << endl;
     return 0;
 }
