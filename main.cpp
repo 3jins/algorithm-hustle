@@ -1,11 +1,11 @@
 #include <iostream>
 #include <vector>
-#include "pr12911.cpp"
+#include "pr12911_trial.cpp"
 using namespace std;
 
 int main() {
     vector<int> testCases = {
-            78, 15
+            78, 15, 1000000, 999999
     };
     int numCases = testCases.size();
     for(int i=0; i<numCases; i++) {
