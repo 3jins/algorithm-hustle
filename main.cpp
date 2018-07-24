@@ -1,11 +1,13 @@
 #include <iostream>
 #include <vector>
-#include "pr12924.cpp"
+#include "pr12939.cpp"
 using namespace std;
 
 int main() {
-    vector<int> testCases = {
-            15, 16, 55
+    vector<string> testCases = {
+            "1 2 3 4",
+            "-1 -2 -3 -4",
+            "-1 -1"
     };
     int numCases = testCases.size();
     for(int i=0; i<numCases; i++) {
