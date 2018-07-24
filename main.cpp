@@ -1,11 +1,11 @@
 #include <iostream>
 #include <vector>
-#include "pr12913.cpp"
+#include "pr12924.cpp"
 using namespace std;
 
 int main() {
-    vector<vector<vector<int>>> testCases = {
-            {{1, 2, 3, 5}, {5, 6, 7, 8}, {4, 3, 2, 1}}
+    vector<int> testCases = {
+            15, 16, 55
     };
     int numCases = testCases.size();
     for(int i=0; i<numCases; i++) {
