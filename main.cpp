@@ -1,14 +1,18 @@
 #include <iostream>
 #include <vector>
-#include "vector_util.h"
-#include "pr12951.cpp"
+#include "pr12953.cpp"
 
 using namespace std;
 
 int main() {
-    vector<string> testCases = {
-            "3people unFollowed me",
-            "for the last week"
+    vector<vector<int>> testCases = {
+            {2, 6, 8, 14},
+            {1, 2, 3},
+            {48, 24},
+            {540, 24, 144},
+            {6, 25, 15},
+            {1, 100, 90},
+            {100, 90}
     };
 //    vector<vector<vector<int>>> testCases2 = {
 //            {{3, 3}, {3, 3}},
