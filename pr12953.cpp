@@ -16,15 +16,23 @@ vector<int> factorize(int target) {
     return primes;
 }
 
-int getGCD(int a, int b) {
+int getGCD(int a, int b, bool useEuclidean = true) {
     int gcd = 1;
-    vector<int> primes = factorize(a);
-    vector<int>::iterator iter;
-    for (iter = primes.begin(); iter < primes.end(); iter++) {
-        int prime = *iter;
-        if (b % prime == 0) {
-            b /= prime;
-            gcd *= prime;
+    if(useEuclidean) {
+        while(a != b) {
+            if(a > b) a = a - b;
+            else b = b - a;
+        }
+        gcd = a;
+    } else {
+        vector<int> primes = factorize(a);
+        vector<int>::iterator iter;
+        for (iter = primes.begin(); iter < primes.end(); iter++) {
+            int prime = *iter;
+            if (b % prime == 0) {
+                b /= prime;
+                gcd *= prime;
+            }
         }
     }
     return gcd;
