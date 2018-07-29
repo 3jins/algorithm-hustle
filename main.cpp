@@ -1,18 +1,12 @@
 #include <iostream>
 #include <vector>
-#include "pr12953.cpp"
+#include "pr12900.cpp"
 
 using namespace std;
 
 int main() {
-    vector<vector<int>> testCases = {
-            {2, 6, 8, 14},
-            {1, 2, 3},
-            {48, 24},
-            {540, 24, 144},
-            {6, 25, 15},
-            {1, 100, 90},
-            {100, 90}
+    vector<int> testCases = {
+            3, 4, 5
     };
 //    vector<vector<vector<int>>> testCases2 = {
 //            {{3, 3}, {3, 3}},
