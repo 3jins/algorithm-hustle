@@ -1,12 +1,15 @@
 #include <iostream>
 #include <vector>
-#include "pr12900.cpp"
+#include "pr12904.cpp"
 
 using namespace std;
 
 int main() {
-    vector<int> testCases = {
-            3, 4, 5
+    vector<string> testCases = {
+            "abcdcba",
+            "abacde",
+            "tomato",
+            "aatomot"
     };
 //    vector<vector<vector<int>>> testCases2 = {
 //            {{3, 3}, {3, 3}},
