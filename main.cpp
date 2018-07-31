@@ -1,19 +1,26 @@
 #include <iostream>
 #include <vector>
-#include "bj12865.cpp"
+#include "pr12907.cpp"
 
 using namespace std;
 
 int main() {
-    int numItems, maxWeight;
-    vector<vector<int>> items = {{0, 0}};
-
-    cin >> numItems >> maxWeight;
-    for (int i = 0; i < numItems; i++) {
-        int weight, value;
-        cin >> weight >> value;
-        items.emplace_back(vector<int>({weight, value}));
+    vector<int> testCases = {
+            12,
+            5
+    };
+    vector<vector<int>> testCases2 = {
+            {1, 2, 5, 7},
+            {2, 3}
+    };
+    int numCases = testCases.size();
+    for (int i = 0; i < numCases; i++) {
+//        cout << (solution(testCases[i]) ? "true" : "false") << endl;
+//        cout << solution(testCases[i]) << endl;
+        cout << solution(testCases[i], testCases2[i]) << endl;
+//        vector<vector<int>> result = solution(testCases[i], testCases2[i]);
+//        for(int i=0; i<result.size(); i++)
+//            printVector(result[i], " ");
     }
-    cout << optimizeKnapsack(maxWeight, items) << endl;
     return 0;
 }
