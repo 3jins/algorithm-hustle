@@ -1,26 +1,20 @@
 #include <iostream>
 #include <vector>
-#include "pr12936.cpp"
+#include "pr12938.cpp"
 #include "vector_util.h"
 
 using namespace std;
 
 int main() {
     vector<int> testCases = {
-            3,
-            4,
-            10,
-            13,
-            14,
-            20
+            2,
+            2,
+            6
     };
     vector<long long> testCases2 = {
-            5,
-            11,
-            10000,
+            9,
             1,
-            1,
-            1
+            100
     };
     int numCases = testCases.size();
     for (int i = 0; i < numCases; i++) {
