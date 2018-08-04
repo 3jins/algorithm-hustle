@@ -1,27 +1,14 @@
 #include <iostream>
 #include <vector>
-#include "pre_kakao_2017_3.cpp"
-//#include "regex_test.cpp"
 #include "vector_util.h"
+#include "pr12902.cpp"
 
 using namespace std;
 
 int main() {
-    vector<string> testCases = {
-//            "HaEaLaLaObWORLDb",
-//            "HELLOWaOaRaLaD",
-//            "aHbEbLbLbOacWdOdRdLdDc",
-//            "aHELLOa bWORLDb",
-//            "HaEaLaLObWORLDb",
-//            "HaEaLaLaOWaOaRaLaD",
-//            "abHELLObaWORLD",
-//            "SpIpGpOpNpGJqOqA",
-            "AxAxAxAyByCzC",
-            "TEST"
-//            "AxAxAxAoBoBoB",
-//            "HELLObWORLDbFcUcCcK"
+    vector<int> testCases = {
+        1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 2500, 4900
     };
-
 //    vector<int> testCases2 = {
 //            3,
 //            6
@@ -33,8 +20,8 @@ int main() {
     int numCases = testCases.size();
     for (int i = 0; i < numCases; i++) {
 //        cout << (solution(testCases[i]) ? "true" : "false") << endl;
-//        cout << i << ") " << testCases[i] << endl;
-        cout << i << ") " << solution(testCases[i]) << endl;
+//        cout << testCases[i] << endl;
+        cout << solution(testCases[i]) << endl;
 //        cout << solution(testCases[i], testCases2[i]) << endl;
 //        cout << solution(testCases[i], testCases2[i], testCases3[i]) << endl;
 
