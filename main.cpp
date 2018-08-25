@@ -2,6 +2,7 @@
 #include <vector>
 #include "vector_util.h"
 #include "kakao_blind_2017_5.cpp"
+#include "regex_test.cpp"
 
 using namespace std;
 
@@ -33,7 +34,7 @@ int main() {
 //        cout << solution(testCases[i]) << endl;
         cout << solution(testCases[i], testCases2[i]) << endl;
 //        cout << solution(testCases[i], testCases2[i], testCases3[i]) << endl;
-        cout << solution(testCases[i], testCases2[i]) << endl;
+//        cout << solution(testCases[i], testCases2[i]) << endl;
 
 //        vector<string> result = solution(testCases[i], testCases2[i], testCases3[i]);
 //        for(int i=1; i<=result.size(); i++) {
@@ -46,5 +47,6 @@ int main() {
 //        for(int i=0; i<result.size(); i++)
 //            printVector(result[i], " ");
     }
+    test2();
     return 0;
 }
