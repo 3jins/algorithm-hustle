@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://C:\Users\jinai\git_projects\algorithm-hustle\.idea\algirithm-hustle.iml" filepath="C:\Users\jinai\git_projects\algorithm-hustle\.idea\algirithm-hustle.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/algorithm-hustle.iml" filepath="$PROJECT_DIR$/.idea/algorithm-hustle.iml" />
     </modules>
   </component>
