@@ -1,38 +1,52 @@
 #include <iostream>
 #include <vector>
 #include "vector_util.h"
-#include "kakao_blind_2017_3.cpp"
+#include "kakao_blind_2017_4.cpp"
 
 using namespace std;
 
 int main() {
     vector<int> testCases = {
-            3,
-            3,
+            1,
             2,
+            2,
+            1,
+            1,
+            10
+    };
+    vector<int> testCases2 = {
+            1,
+            10,
+            1,
+            1,
+            1,
+            60
+    };
+    vector<int> testCases3 = {
             5,
             2,
-            0
+            2,
+            5,
+            1,
+            45
     };
-    vector<vector<string>> testCases2 = {
-            {"Jeju", "Pangyo", "Seoul",   "NewYork", "LA",     "Jeju",         "Pangyo", "Seoul",  "NewYork", "LA"},
-            {"Jeju", "Pangyo", "Seoul",   "Jeju",    "Pangyo", "Seoul",        "Jeju",   "Pangyo", "Seoul"},
-            {"Jeju", "Pangyo", "Seoul",   "NewYork", "LA",     "SanFrancisco", "Seoul",  "Rome",   "Paris",   "Jeju", "NewYork", "Rome"},
-            {"Jeju", "Pangyo", "Seoul",   "NewYork", "LA",     "SanFrancisco", "Seoul",  "Rome",   "Paris",   "Jeju", "NewYork", "Rome"},
-            {"Jeju", "Pangyo", "NewYork", "newyork"},
-            {"Jeju", "Pangyo", "Seoul",   "NewYork", "LA"},
+    vector<vector<string>> testCases4 = {
+            {"08:00", "08:01", "08:02", "08:03"},
+            {"09:10", "09:09", "08:00"},
+            {"09:00", "09:00", "09:00", "09:00"},
+            {"00:01", "00:01", "00:01", "00:01", "00:01"},
+            {"23:59"},
+            {"23:59","23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59"},
     };
-//    vector<vector<int>> testCases3 = {
-//            {30, 1, 21, 17, 28},
-//            {27 ,56, 19, 14, 14, 10}
-//    };
     int numCases = testCases.size();
     for (int i = 0; i < numCases; i++) {
+//    for (int i = 5; i < 6; i++) {
 //        cout << (solution(testCases[i]) ? "true" : "false") << endl;
 //        cout << testCases[i] << endl;
 //        cout << solution(testCases[i]) << endl;
-        cout << solution(testCases[i], testCases2[i]) << endl;
+//        cout << solution(testCases[i], testCases2[i]) << endl;
 //        cout << solution(testCases[i], testCases2[i], testCases3[i]) << endl;
+        cout << solution(testCases[i], testCases2[i], testCases3[i], testCases4[i]) << endl;
 
 //        vector<string> result = solution(testCases[i], testCases2[i], testCases3[i]);
 //        for(int i=1; i<=result.size(); i++) {
