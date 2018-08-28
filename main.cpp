@@ -1,39 +1,31 @@
 #include <iostream>
 #include <vector>
 #include "vector_util.h"
-#include "kakao_blind_2017_5.cpp"
+#include "kakao_blind_2017_6.cpp"
 #include "regex_test.cpp"
 
 using namespace std;
 
 int main() {
-    vector<string> testCases = {
-            "FRANCE",
-            "handshake",
-            "aa1+aa2",
-            "E=M*C^2"
+    vector<int> testCases = {
+            4,
+            6,
     };
-    vector<string> testCases2 = {
-            "french",
-            "shake hands",
-            "AAAA12",
-            "e=m*c^2"
+    vector<int> testCases2 = {
+            5,
+            6,
     };
-//    vector<int> testCases3 = {
-//            5,
-//            2,
-//            2,
-//            5,
-//            1,
-//            45
-//    };
+    vector<vector<string>> testCases3 = {
+            {"CCBDE", "AAADE", "AAABF", "CCBBF"},
+            {"TTTANT", "RRFACC", "RRRFCC", "TRRRAA", "TTMMMF", "TMMTTJ"},
+    };
     int numCases = testCases.size();
     for (int i = 0; i < numCases; i++) {
 //        cout << (solution(testCases[i]) ? "true" : "false") << endl;
 //        cout << testCases[i] << endl;
 //        cout << solution(testCases[i]) << endl;
-        cout << solution(testCases[i], testCases2[i]) << endl;
-//        cout << solution(testCases[i], testCases2[i], testCases3[i]) << endl;
+//        cout << solution(testCases[i], testCases2[i]) << endl;
+        cout << solution(testCases[i], testCases2[i], testCases3[i]) << endl;
 //        cout << solution(testCases[i], testCases2[i]) << endl;
 
 //        vector<string> result = solution(testCases[i], testCases2[i], testCases3[i]);
@@ -47,6 +39,5 @@ int main() {
 //        for(int i=0; i<result.size(); i++)
 //            printVector(result[i], " ");
     }
-    test2();
     return 0;
 }
