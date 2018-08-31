@@ -1,21 +1,21 @@
 #include <iostream>
 #include <vector>
 #include "vector_util.h"
-#include "kakao_blind3_2017_4.cpp"
+#include "kakao_blind3_2017_5.cpp"
 
 using namespace std;
 
 int main() {
-    vector<string> testCases = {
-            "ABCDEFG",
-            "CC#BCC#BCC#BCC#B",
-            "ABC"
+    vector<vector<string>> testCases = {
+            {"go","gone","guild"},
+            {"abc","def","ghi","jklm"},
+            {"word","war","warrior","world"}
     };
-    vector<vector<string>> testCases2 = {
-            {"12:00,12:14,HELLO,CDEFGAB", "13:00,13:05,WORLD,ABCDEF"},
-            {"03:00,03:30,FOO,CC#B", "04:00,04:08,BAR,CC#BCC#BCC#B"},
-            {"12:00,12:14,HELLO,C#DEFGAB", "13:00,13:05,WORLD,ABCDEF"},
-    };
+//    vector<vector<string>> testCases2 = {
+//            {"12:00,12:14,HELLO,CDEFGAB", "13:00,13:05,WORLD,ABCDEF"},
+//            {"03:00,03:30,FOO,CC#B", "04:00,04:08,BAR,CC#BCC#BCC#B"},
+//            {"12:00,12:14,HELLO,C#DEFGAB", "13:00,13:05,WORLD,ABCDEF"},
+//    };
 //    vector<int> testCases3 = {
 //            2, 2, 2
 //    };
@@ -27,8 +27,8 @@ int main() {
     for (int i = 0; i < numCases; i++) {
 //        cout << (solution(testCases[i]) ? "true" : "false") << endl;
 //        cout << testCases[i] << endl;
-//        cout << solution(testCases[i]) << endl;
-        cout << solution(testCases[i], testCases2[i]) << endl;
+        cout << solution(testCases[i]) << endl;
+//        cout << solution(testCases[i], testCases2[i]) << endl;
 //        cout << solution(testCases[i], testCases2[i], testCases3[i]) << endl;
 //        cout << solution(testCases[i], testCases2[i], testCases3[i], testCases4[i]) << endl;
 //        cout << solution(testCases[i], testCases2[i]) << endl;
