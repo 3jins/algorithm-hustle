@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include "vector_util.h"
-#include "kakao_blind3_2017_5.cpp"
+#include "string_test.cpp"
 
 using namespace std;
 
@@ -27,7 +27,7 @@ int main() {
     for (int i = 0; i < numCases; i++) {
 //        cout << (solution(testCases[i]) ? "true" : "false") << endl;
 //        cout << testCases[i] << endl;
-        cout << solution(testCases[i]) << endl;
+//        cout << solution(testCases[i]) << endl;
 //        cout << solution(testCases[i], testCases2[i]) << endl;
 //        cout << solution(testCases[i], testCases2[i], testCases3[i]) << endl;
 //        cout << solution(testCases[i], testCases2[i], testCases3[i], testCases4[i]) << endl;
@@ -46,5 +46,7 @@ int main() {
 //        for(int i=0; i<result.size(); i++)
 //            printVector(result[i], " ");
     }
+
+    test();
     return 0;
 }
