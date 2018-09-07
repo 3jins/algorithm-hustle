@@ -1,22 +1,29 @@
 #include <iostream>
 #include <vector>
 #include "vector_util.h"
-#include "bj13460_samsung.cpp"
+#include "bj12100_samsung.cpp"
 
 using namespace std;
 
 int main() {
     /* Baekjoon Style Main */
-    int N, M;
-    cin >> N >> M;
-    vector<string> map;
-    for(int i=0; i<N; i++) {
-        string mapRow;
-        cin >> mapRow;
-        map.push_back(mapRow);
+    int N;
+    vector<vector<int>> board;
+    cin >> N;
+    for (int i = 0; i < N + 2; i++) {
+        vector<int> tmpVec;
+        int tmp;
+        for (int j = 0; j < N + 2; j++) {
+            if(i == 0 || j == 0 || i == N + 1 || j == N + 1)
+                tmpVec.push_back(0);
+            else {
+                cin >> tmp;
+                tmpVec.push_back(tmp);
+            }
+        }
+        board.push_back(tmpVec);
     }
-
-    cout << solution(map) << endl;
+    cout << solution(N, board) << endl;
 
 
     /* Programmers Style Main */
