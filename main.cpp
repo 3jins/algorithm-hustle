@@ -1,27 +1,34 @@
 #include <iostream>
 #include <vector>
 #include "vector_util.h"
-#include "bj13458_samsung.cpp"
+#include "bj14499_samsung.cpp"
 
 using namespace std;
 
 int main() {
     /* Baekjoon Style Main */
-    int numRooms;
-    vector<int> listNumTestTakers;
-    int chiefCapability;
-    int viceCapability;
-
-    cin >> numRooms;
-    for(int i=0; i<numRooms; i++) {
-        int numTestTaker;
-        cin >> numTestTaker;
-        listNumTestTakers.push_back(numTestTaker);
+    int N, M;
+    int samsungY, samsungX;
+    int K;
+    vector<vector<int>> map;
+    vector<int> commands;
+    cin >> N >> M >> samsungX >> samsungY >> K;
+    for(int i=0; i<N; i++) {
+        vector<int> row;
+        for(int j=0; j<M; j++) {
+            int coordVal;
+            cin >> coordVal;
+            row.push_back(coordVal);
+        }
+        map.push_back(row);
     }
-    cin >> chiefCapability >> viceCapability;
+    for(int i=0; i<K; i++) {
+        int command;
+        cin >> command;
+        commands.push_back(command);
+    }
 
-    cout << solution(listNumTestTakers, chiefCapability, viceCapability) << endl;
-
+    solution(samsungX, samsungY, map, commands, N, M);
 
     /* Programmers Style Main */
 //    vector<vector<string>> testCases = {
