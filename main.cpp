@@ -1,31 +1,26 @@
 #include <iostream>
 #include <vector>
 #include "vector_util.h"
-#include "bj3190_samsung.cpp"
+#include "bj13458_samsung.cpp"
 
 using namespace std;
 
 int main() {
     /* Baekjoon Style Main */
-    int N, K;
-    cin >> N;
-    cin >> K;
-    vector<pair<int, int>> appleCoords;
-    for(int i=0; i<K; i++) {
-        int y, x;
-        cin >> y >> x;
-        appleCoords.push_back({y, x});
+    int numRooms;
+    vector<int> listNumTestTakers;
+    int chiefCapability;
+    int viceCapability;
+
+    cin >> numRooms;
+    for(int i=0; i<numRooms; i++) {
+        int numTestTaker;
+        cin >> numTestTaker;
+        listNumTestTakers.push_back(numTestTaker);
     }
-    int L;
-    cin >> L;
-    vector<pair<int, char>> snakeLogs;
-    for(int i=0; i<L; i++) {
-        int sec;
-        char turn;
-        cin >> sec >> turn;
-        snakeLogs.push_back({sec, turn});
-    }
-    cout << solution(N, appleCoords, snakeLogs) << endl;
+    cin >> chiefCapability >> viceCapability;
+
+    cout << solution(listNumTestTakers, chiefCapability, viceCapability) << endl;
 
 
     /* Programmers Style Main */
