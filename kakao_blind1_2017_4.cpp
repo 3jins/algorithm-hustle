@@ -6,6 +6,8 @@
 
 using namespace std;
 
+using ascpq = priority_queue<int, vector<int>, greater<int>>;
+
 vector<string> split(string s, string delim) {
     vector<string> ret;
     while (true) {
@@ -20,50 +22,52 @@ vector<string> split(string s, string delim) {
     return ret;
 }
 
-vector<int> convertTimeTable(vector<string> timeTable) {
-    vector<int> times;
+ascpq convertTimeTable(vector<string> timeTable) {
+    ascpq times;
     int timeTableSize = timeTable.size();
     for (int i = 0; i < timeTableSize; i++) {
         vector<string> splitTime = split(timeTable[i], ":");
-        times.emplace_back(stoi(splitTime[0]) * 60 + stoi(splitTime[1]));
+        times.push(stoi(splitTime[0]) * 60 + stoi(splitTime[1]));
     }
     return times;
 }
 
 string solution(int numBuses, int interval, int capacity, vector<string> timeTable) {
     int time = 540;
-    int latestTime = time;
-    vector<int> intTimeTable = convertTimeTable(timeTable);
-    int timeTableSize = intTimeTable.size();
-    queue<int> waitQueue;
+    ascpq timeTableQueue = convertTimeTable(timeTable);
+    ascpq waitQueue;
     int latest = 1;
 
     for (int i = 0; i < numBuses; i++) {
-        for (int j = 0; j < timeTableSize; j++) {
-            if (intTimeTable[j] <= time) {
-                if (latest < intTimeTable[j]) {
-                    latest = intTimeTable[j];
-                }
-                waitQueue.push(intTimeTable[j]);
-                intTimeTable.erase(intTimeTable.begin() + j--);
-                timeTableSize--;
+        int count = 0;
+        for (int j = 0; j < capacity; j++) {
+            if(timeTableQueue.empty()) break;
+            int arrivalTime = timeTableQueue.top();
+            if (arrivalTime > time) continue;
+            timeTableQueue.pop();
+            waitQueue.push(arrivalTime);
+            count++;
+        }
+        for (int j = 0; j < capacity; j++) {
+            if (waitQueue.empty()) {
+                latest = time + 1;
+                break;
             }
+            int onBusCrewTime = waitQueue.top();
+            waitQueue.pop();
+            if (latest < onBusCrewTime)
+                latest = onBusCrewTime;
         }
-        if (waitQueue.size() < capacity) {
-            if (i + 1 == numBuses) latestTime = time;
-            else latestTime = time + interval - 1;
-        } else {
-            latestTime = latest - 1;
-        }
-        time += interval;
-        for (int i = 0; i < capacity; i++) {
-            if (waitQueue.empty()) break;
+        for (int j = capacity; j < count; j++) {
+            timeTableQueue.push(waitQueue.top());
             waitQueue.pop();
         }
+        time += interval;
     }
+    latest -= 1;
 
-    int hour = latestTime / 60;
-    int minute = latestTime % 60;
+    int hour = latest / 60;
+    int minute = latest % 60;
     string hourStr = (hour < 10 ? "0" + to_string(hour) : "" + to_string(hour));
     string minuteStr = (minute < 10 ? "0" + to_string(minute) : "" + to_string(minute));
     return hourStr + ":" + minuteStr;
