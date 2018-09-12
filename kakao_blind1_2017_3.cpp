@@ -19,6 +19,7 @@ int solution(int cacheSize, vector<string> cities) {
     int runTime = 0;
     bool isHit = false;
     vector<string> cache;
+    int curCacheSize = 0;
     int numCities = cities.size();
 
     for (int i = 0; i < numCities; i++) {
@@ -32,13 +33,14 @@ int solution(int cacheSize, vector<string> cities) {
                 break;
             }
         }
-        cache.emplace_back(cityName);
+        cache.push_back(cityName);
         if (isHit) {
             isHit = false;
             continue;
         }
         runTime += 5;
-        if (i >= cacheSize) cache.erase(cache.begin());
+        curCacheSize++;
+        if (curCacheSize > cacheSize) cache.erase(cache.begin());
     }
     return runTime;
 }
