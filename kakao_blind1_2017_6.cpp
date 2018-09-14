@@ -1,4 +1,3 @@
-// 8:30 ~ 9:32
 #include <iostream>
 #include <vector>
 #include <string>
@@ -8,6 +7,7 @@
 using namespace std;
 
 int map[MAX_BOARD + 1][MAX_BOARD];
+bool removal[MAX_BOARD + 1][MAX_BOARD];
 int height = 0;
 int width = 0;
 
@@ -15,6 +15,16 @@ void printMap() {
     for (int i = 0; i <= height; i++) {
         for (int j = 0; j < width; j++) {
             cout << map[i][j] << " ";
+        }
+        cout << endl;
+    }
+    cout << endl;
+}
+
+void printRemoval() {
+    for (int i = 0; i <= height; i++) {
+        for (int j = 0; j < width; j++) {
+            cout << removal[i][j] << " ";
         }
         cout << endl;
     }
@@ -37,29 +47,32 @@ void convertBoardToMap(vector<string> board) {
 void removeMatchedBlocks(int y, int x) {
     if (y >= height) return;
     if (x >= width - 1) return;
+    if(map[y][x] < 0) return;
     int steps[3][3] = {
             {0, 1, 1},
             {1, 0, 1}
     };
+
     int curBlock = map[y][x];
 
     for (int i = 0; i < 3; i++) {
         if (map[y + steps[0][i]][x + steps[1][i]] != curBlock) return;
     }
     for (int i = 0; i < 3; i++) {
-        removeMatchedBlocks(y + steps[0][i], x + steps[1][i]);
+        removal[y + steps[0][i]][x + steps[1][i]] = true;
     }
-    for (int i = 0; i < 3; i++) {
-        map[y + steps[0][i]][x + steps[1][i]] = 0;
-    }
-    map[y][x] = 0;
+    removal[y][x] = true;
 }
 
 int calculateScore() {
     int score = 0;
-    for (int i = 1; i <= height; i++) {
+    for (int i = 0; i <= height; i++) {
         for (int j = 0; j < width; j++) {
-            if (map[i][j] == 0) score++;
+            if(removal[i][j]) {
+                map[i][j] = 0;
+                removal[i][j] = false;
+                score++;
+            }
         }
     }
     return score;
@@ -68,11 +81,11 @@ int calculateScore() {
 void blockDown() {
     for (int j = 0; j < width; j++) {
         for (int i = height; i > 0; i--) {
-            if (map[i][j] > 0) continue;
+            if (map[i][j] != 0) continue;
             int k = i;
-            while (--k >= 1 && map[k][j] <= 0);
+            while (--k >= 1 && map[k][j] == 0);
             map[i][j] = map[k][j];
-            map[k][j] = -1;
+            if(map[k][j] > 0) map[k][j] = 0;
         }
     }
 }
@@ -83,11 +96,9 @@ int solution(int h, int w, vector<string> board) {
     height = h;
     width = w;
 
-    int cnt = 0;
     while (true) {
         for (int i = 1; i <= height - 1; i++) {
             for (int j = 0; j < width - 1; j++) {
-                if (map[i][j] <= 0) continue;
                 removeMatchedBlocks(i, j);
             }
         }
