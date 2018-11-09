@@ -1,6 +1,6 @@
 #include <string>
 #include <regex>
-#include "vector_util.h"
+#include "../utils/vector_util.h"
 
 using namespace std;
 

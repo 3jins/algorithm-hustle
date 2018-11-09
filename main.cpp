@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
-#include "vector_util.h"
-#include "kakao_blind1_2018_7.cpp"
+#include "utils/vector_util.h"
+#include "kakao-recruitment/kakao_blind1_2018_7.cpp"
 
 using namespace std;
 
