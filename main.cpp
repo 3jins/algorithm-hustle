@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include "utils/vector_util.h"
-#include "kakao-recruitment/kakao_blind1_2018_7.cpp"
+#include "mail-programming/mail23.cpp"
 
 using namespace std;
 
@@ -18,21 +18,14 @@ int main() {
 //    cout << solution(daysLeft, schedule) << endl;
 
     /* Programmers Style Main */
-    vector<vector<vector<int>>> testCases = {
-//            {{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0, 4, 0, 0, 0}, {0, 0, 0, 0, 0, 4, 4, 0, 0, 0}, {0, 0, 0, 0, 3, 0, 4, 0, 0, 0}, {0, 0, 0, 2, 3, 0, 0, 0, 5, 5}, {1, 2, 2, 2, 3, 3, 0, 0, 0, 5}, {1, 1, 1, 0, 0, 0, 0, 0, 0, 5}},
-            {
-                    {1, 0, 0, 2, 0, 0},
-                    {1, 2, 2, 2, 3, 0},
-                    {1, 1, 0, 3, 3, 3},
-                    {4, 0, 5, 6, 6, 6},
-                    {4, 5, 5, 5, 6, 0},
-                    {4, 4, 0, 0, 0, 0},
-            }
+    vector<vector<int>> testCases = {
+            {1, 2, 3, 4, 5},
+            {0, 1, 2, 3, 4},
     };
-//    vector<int> testCases2 = {
-//            5,
-//            40
-//    };
+    vector<int> testCases2 = {
+            2,
+            1,
+    };
 //    vector<vector<string>> testCases3 = {
 //            {"CCBDE", "AAADE", "AAABF", "CCBBF"},
 //            {"TTTANT", "RRFACC", "RRRFCC", "TRRRAA", "TTMMMF", "TMMTTJ"},
@@ -45,17 +38,15 @@ int main() {
 //    for (int i = 1; i < 2; i++) {
 //        cout << (solution(testCases[i]) ? "true" : "false") << endl;
 //        cout << testCases[i] << endl;
-        cout << solution(testCases[i]) << endl;
-//        cout << solution(testCases[i], testCases2[i]) << endl;
 //        cout << solution(testCases[i]) << endl;
 //        cout << solution(testCases[i], testCases2[i]) << endl;
 
-//        vector<int> result = solution(testCases[i], testCases2[i]);
+        vector<int> result = solution(testCases[i], testCases2[i]);
 //        for(int i=1; i<=result.size(); i++) {
 //            cout << i << "\t";
 //        }
 //        cout << endl;
-//        printVector(result, " ");
+        printVector(result, " ");
 //        cout << endl;
 //        vector<vector<int>> result = solution(testCases[i]);
 //        for (int i = 0; i < result.size(); i++)
