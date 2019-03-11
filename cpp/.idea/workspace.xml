@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="algorithm-hustle" targetName="algorithm-hustle" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" ADDITIONAL_BUILD_OPTIONS="-j 4">
+    <configurations>
+      <configuration CONFIG_NAME="Debug" GENERATION_OPTIONS="-std=c++11 -O2 -Wno-unused-result" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ac4461a7-1c07-48c8-aa47-11b5bc0f3b5c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon/bj11053.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon/bj12865.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon/bj1753.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon/bj2589.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon/bj2606.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon/bj2667.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon/bj7576.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon/bj7576_trial.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kakao-festival/pre_kakao_2017_1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kakao-festival/pre_kakao_2017_2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kakao-festival/pre_kakao_2017_3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kakao-festival/pre_kakao_2017_4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kakao-festival/pre_kakao_2017_5.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kakao-festival/pre_kakao_2017_6.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kakao-recruitment/kakao_blind1_2017_1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kakao-recruitment/kakao_blind1_2017_2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kakao-recruitment/kakao_blind1_2017_3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kakao-recruitment/kakao_blind1_2017_4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kakao-recruitment/kakao_blind1_2017_5.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kakao-recruitment/kakao_blind1_2017_6.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kakao-recruitment/kakao_blind1_2017_7.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kakao-recruitment/kakao_blind1_2018_1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kakao-recruitment/kakao_blind1_2018_2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kakao-recruitment/kakao_blind1_2018_3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kakao-recruitment/kakao_blind1_2018_4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kakao-recruitment/kakao_blind1_2018_5.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kakao-recruitment/kakao_blind1_2018_6.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kakao-recruitment/kakao_blind1_2018_7.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kakao-recruitment/kakao_blind3_2017_1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kakao-recruitment/kakao_blind3_2017_2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kakao-recruitment/kakao_blind3_2017_3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kakao-recruitment/kakao_blind3_2017_4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kakao-recruitment/kakao_blind3_2017_5.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail-programming/mail01.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail-programming/mail02.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail-programming/mail03.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail-programming/mail04.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail-programming/mail04_trial.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail-programming/mail05.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail-programming/mail05_trial.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail-programming/mail06.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail-programming/mail07.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail-programming/mail08.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail-programming/mail09.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail-programming/mail10.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail-programming/mail11.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail-programming/mail12.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail-programming/mail13.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail-programming/mail14.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail-programming/mail15.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail-programming/mail16.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail-programming/mail17.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail-programming/mail18.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail-programming/mail19.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail-programming/mail20.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail-programming/mail21.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail-programming/mail22.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail-programming/mail23.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail-programming/mail24.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/level2/pr12899_number_of_124_nation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/level2/pr12905_finding_the_biggest_square.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/level2/pr12909_the_correct_parenthesis.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/level2/pr12911_the_next_big_number.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/level2/pr12911_the_next_big_number_trial.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/level2/pr12913_the_land_gaining_game.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/level2/pr12924_the_expression_of_numbers.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/level2/pr12939_the_maximum_and_the_minimum.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/level2/pr12941_making_a_minimum.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/level2/pr12945_fibonacci_number.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/level2/pr12949_matrix_multiplication.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/level2/pr12951_generating_a_JadenCase_string.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/level2/pr12953_lcm_of_n_numbers.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/level3/pr12900_2_x_n_tiling.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/level3/pr12904_the_longest_palindrome.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/level3/pr12907_change.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/level3/pr12914_the_long_jump.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/level3/pr12927_overtime_quotient.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/level3/pr12936_ways_to_line_up.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/level3/pr12938_the_best_set.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/level3/pr12946_the_Hanoi_towers.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/level4/pr12902_3_x_n_tiling.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/level4/pr12920_fifo_scheduling.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/level4/pr12920_fifo_scheduling_pq_fail.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/level4/pr12923_number_blocks.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/level4/pr12929_number_of_proper_parenthesis.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samsung-recruitment/bj12100_2048_(Easy).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samsung-recruitment/bj12100_2048_(Easy)_trial.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samsung-recruitment/bj13458_exam_supervisors.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samsung-recruitment/bj13460_bead_escape.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samsung-recruitment/bj14499_dice_rolling.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samsung-recruitment/bj14500_tetromino.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samsung-recruitment/bj3190_a_snake.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/dp_fibonacci.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/dp_lis.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/iterator_test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/regex_test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/sort_test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/string_test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/binary_tree.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/invertable_binary_tree.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/linked_list.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/string_util.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/tree_node.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/vector_util.h" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cout</find>
+      <find>fillable</find>
+      <find>print</find>
+      <find>&lt;&lt; &quot;,</find>
+      <find>nextNode</find>
+      <find>nodeCount</find>
+      <find>curNode</find>
+      <find>newNode</find>
+      <find>isEmpty</find>
+      <find>next</find>
+      <find>head</find>
+      <find>next(</find>
+      <find>Node</find>
+      <find>tail</find>
+      <find>LLNode</find>
+      <find>next_node</find>
+      <find>get_h</find>
+      <find>LinkedList</find>
+      <find>get_head</find>
+      <find>get_</find>
+      <find>size</find>
+      <find>le</find>
+      <find>LLNO</find>
+      <find>LLNode</find>
+      <find>print_</find>
+      <find>is_tail</find>
+      <find>add(</find>
+      <find>append</find>
+      <find>add</find>
+      <find>//</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Bx</replace>
+      <replace>isRedVisited</replace>
+      <replace>j</replace>
+      <replace>yIterSteps</replace>
+      <replace>xIterSteps</replace>
+      <replace>turn</replace>
+      <replace>MAP</replace>
+      <replace>nextPosVal</replace>
+      <replace>[direction - 1]</replace>
+      <replace>tmp</replace>
+      <replace>samsungY</replace>
+      <replace>push</replace>
+      <replace>timeTableVector</replace>
+      <replace>timeTableQueue</replace>
+      <replace>blocksDown</replace>
+      <replace>remove</replace>
+      <replace>removal</replace>
+      <replace>w</replace>
+      <replace>h</replace>
+      <replace>i</replace>
+      <replace>makeNickTable</replace>
+      <replace>map[</replace>
+      <replace>mapSize</replace>
+      <replace>next_node</replace>
+      <replace>node_count</replace>
+      <replace>cur_node</replace>
+      <replace>new_node</replace>
+      <replace>is_empty</replace>
+      <replace>LLNode</replace>
+      <replace>LLNode&lt;T&gt;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/kakao_blind_2017_5.cpp" />
+        <option value="$PROJECT_DIR$/kakao_blind_2017_6.cpp" />
+        <option value="$PROJECT_DIR$/kakao_blind_2017_7.cpp" />
+        <option value="$PROJECT_DIR$/kakao_blind3_2017_1.cpp" />
+        <option value="$PROJECT_DIR$/kakao_blind3_2017_2.cpp" />
+        <option value="$PROJECT_DIR$/sort_test.cpp" />
+        <option value="$PROJECT_DIR$/kakao_blind3_2017_4.cpp" />
+        <option value="$PROJECT_DIR$/kakao_blind3_2017_5.cpp" />
+        <option value="$PROJECT_DIR$/string_test.cpp" />
+        <option value="$PROJECT_DIR$/kakao_blind3_2017_3.cpp" />
+        <option value="$PROJECT_DIR$/bj13460.py" />
+        <option value="$PROJECT_DIR$/bj13460.cpp" />
+        <option value="$PROJECT_DIR$/bj13460_samsung.cpp" />
+        <option value="$PROJECT_DIR$/bj15685_samsung.cpp" />
+        <option value="$PROJECT_DIR$/bj12100_samsung.cpp" />
+        <option value="$PROJECT_DIR$/bj3190_samsung.cpp" />
+        <option value="$PROJECT_DIR$/bj13458_samsung.cpp" />
+        <option value="$PROJECT_DIR$/bj14499_samsung.cpp" />
+        <option value="$PROJECT_DIR$/regex_test.cpp" />
+        <option value="$PROJECT_DIR$/kakao_blind1_2017_1.cpp" />
+        <option value="$PROJECT_DIR$/kakao_blind1_2017_3.cpp" />
+        <option value="$PROJECT_DIR$/kakao_blind1_2017_4.cpp" />
+        <option value="$PROJECT_DIR$/kakao_blind1_2017_6.cpp" />
+        <option value="$PROJECT_DIR$/kakao_blind1_2017_7.cpp" />
+        <option value="$PROJECT_DIR$/bj14500_samsung.cpp" />
+        <option value="$PROJECT_DIR$/bj14500_samsung_dfs.cpp" />
+        <option value="$PROJECT_DIR$/bj14501_samsung.cpp" />
+        <option value="$PROJECT_DIR$/kakao_blind1_2018_1.cpp" />
+        <option value="$PROJECT_DIR$/kakao_blind1_2018_2.cpp" />
+        <option value="$PROJECT_DIR$/kakao_blind1_2018_4.cpp" />
+        <option value="$PROJECT_DIR$/kakao_blind1_2018_5.cpp" />
+        <option value="$PROJECT_DIR$/kakao_blind1_2018_7.cpp" />
+        <option value="$PROJECT_DIR$/kakao_blind1_2018_3.cpp" />
+        <option value="$PROJECT_DIR$/test.js" />
+        <option value="$PROJECT_DIR$/string_shuffler.cpp" />
+        <option value="$PROJECT_DIR$/mail-programming/mail23.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/utils/linked_list.h" />
+        <option value="$PROJECT_DIR$/mail-programming/mail24.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1848" />
+    <option name="height" value="1103" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552293117553" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jinai\git_projects\algorithm-hustle\mail-programming" />
+      <recent name="C:\Users\jinai\git_projects\algorithm-hustle" />
+      <recent name="C:\Users\jinai\git_projects\algorithm-hustle\utils" />
+      <recent name="C:\Users\jinai\git_projects\algorithm-hustle\kakao-recruitment" />
+      <recent name="C:\Users\jinai\git_projects\algorithm-hustle\programmers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jinai\git_projects\algorithm-hustle\utils" />
+      <recent name="C:\Users\jinai\git_projects\algorithm-hustle\tests" />
+      <recent name="C:\Users\jinai\git_projects\algorithm-hustle\baekjoon" />
+      <recent name="C:\Users\jinai\git_projects\algorithm-hustle\kakao-festival" />
+      <recent name="C:\Users\jinai\git_projects\algorithm-hustle\kakao-recruitment" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CLion_Remote" factoryName="GDB Remote Debug" remoteCommand="" symbolFile="" sysroot="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="algorithm-hustle" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="algorithm-hustle" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="algorithm-hustle" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="algorithm-hustle" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="algorithm-hustle" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="algorithm-hustle" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="algorithm-hustle" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithm-hustle" TARGET_NAME="algorithm-hustle" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algorithm-hustle" RUN_TARGET_NAME="algorithm-hustle">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt">
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac4461a7-1c07-48c8-aa47-11b5bc0f3b5c" name="Default" comment="" />
+      <created>1535207442472</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1535207442472</updated>
+      <workItem from="1535207446521" duration="3906000" />
+      <workItem from="1535217462158" duration="5043000" />
+      <workItem from="1535406984750" duration="55418000" />
+      <workItem from="1535950516156" duration="31217000" />
+      <workItem from="1536104334995" duration="98682000" />
+      <workItem from="1536920788233" duration="3697000" />
+      <workItem from="1536987218328" duration="18655000" />
+      <workItem from="1537350624357" duration="283000" />
+      <workItem from="1537480355215" duration="595000" />
+      <workItem from="1538181473777" duration="1616000" />
+      <workItem from="1539058840990" duration="1374000" />
+      <workItem from="1539410733449" duration="2756000" />
+      <workItem from="1539507383804" duration="595000" />
+      <workItem from="1539668042469" duration="18000" />
+      <workItem from="1540192770459" duration="971000" />
+      <workItem from="1540445191009" duration="587000" />
+      <workItem from="1540622135213" duration="920000" />
+      <workItem from="1541743579252" duration="5557000" />
+      <workItem from="1542158794211" duration="12197000" />
+      <workItem from="1543304321077" duration="719000" />
+      <workItem from="1543622520995" duration="708000" />
+      <workItem from="1552290399264" duration="1323000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="246837000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1232" height="735" extended-state="0" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18174061" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37069923" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="CMake" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.5294118" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2987">
+          <caret line="103" column="47" selection-start-line="103" selection-start-column="47" selection-end-line="103" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/5.3.0/include/c++/bits/predefined_ops.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="122" column="45" selection-start-line="122" selection-start-column="45" selection-end-line="122" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakao-festival/pre_kakao_2017_2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakao-recruitment/kakao_blind3_2017_1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="35" column="37" lean-forward="true" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakao-recruitment/kakao_blind3_2017_5.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-246">
+          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/string_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bj15685_samsung.cpp" />
+    <entry file="file://$PROJECT_DIR$/samsung-recruitment/bj12100_2048_(Easy)_trial.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-691">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samsung-recruitment/bj12100_2048_(Easy).cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1015">
+          <caret line="35" column="54" lean-forward="true" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samsung-recruitment/bj3190_a_snake.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="35" column="55" lean-forward="true" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samsung-recruitment/bj13458_exam_supervisors.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakao-recruitment/kakao_blind1_2017_2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1703">
+          <caret line="97" column="1" lean-forward="true" selection-start-line="1" selection-end-line="97" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakao-recruitment/kakao_blind1_2017_5.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="28" column="69" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakao-recruitment/kakao_blind1_2017_1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakao-recruitment/kakao_blind1_2017_3.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="45" column="1" lean-forward="true" selection-start-line="1" selection-end-line="45" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakao-recruitment/kakao_blind1_2017_4.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1053">
+          <caret line="73" column="1" lean-forward="true" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakao-recruitment/kakao_blind1_2017_6.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakao-recruitment/kakao_blind1_2017_7.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bj14500_samsung_dfs.cpp" />
+    <entry file="file://$PROJECT_DIR$/kakao-recruitment/kakao_blind3_2017_4.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakao-recruitment/kakao_blind3_2017_2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="928">
+          <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakao-recruitment/kakao_blind3_2017_3.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2929">
+          <caret line="104" column="4" lean-forward="true" selection-start-line="104" selection-start-column="4" selection-end-line="104" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samsung-recruitment/bj14500_tetromino.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samsung-recruitment/bj13460_bead_escape.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-522">
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bj14501_samsung.cpp" />
+    <entry file="file://$PROJECT_DIR$/samsung-recruitment/bj14499_dice_rolling.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="809">
+          <caret line="93" column="48" selection-start-line="93" selection-start-column="48" selection-end-line="93" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/tree_node.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="16" column="2" lean-forward="true" selection-start-line="4" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/binary_tree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakao-recruitment/kakao_blind1_2018_5.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="114" column="11" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakao-recruitment/kakao_blind1_2018_6.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakao-recruitment/kakao_blind1_2018_4.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakao-recruitment/kakao_blind1_2018_7.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2204">
+          <caret line="116" column="20" selection-start-line="116" selection-start-column="20" selection-end-line="117" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakao-recruitment/kakao_blind1_2018_1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="58" column="39" lean-forward="true" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakao-recruitment/kakao_blind1_2018_2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakao-recruitment/kakao_blind1_2018_3.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.js" />
+    <entry file="file://$PROJECT_DIR$/tests/regex_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="25" selection-start-line="16" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/sort_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/vector_util.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string_shuffler.cpp" />
+    <entry file="file://$PROJECT_DIR$/programmers/level2/pr12905_finding_the_biggest_square.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/카카오톡 받은 파일/data/data/names/English.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="6" column="8" selection-end-line="3668" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail-programming/mail23.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail-programming/mail18.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/invertable_binary_tree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail-programming/mail24.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/linked_list.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
