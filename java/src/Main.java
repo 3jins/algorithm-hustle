@@ -1,6 +1,6 @@
 import baekjoon.Fibonacci2747;
-import baekjoon.IndustrialSpyLetter3671;
-import baekjoon.Stock11501;
+import baekjoon.acmicpc.regional.IndustrialSpyLetter3671;
+import baekjoon.acmicpc.regional.Stock11501;
 import baekjoon.SuffixArray9248;
 import baekjoon.koi.elmentary.DrawingArrows15970;
 import baekjoon.koi.elmentary.Happiness15969;
