@@ -1,7 +1,7 @@
-import baekjoon.coci.DormitoryFloor2858;
+import baekjoon.coci.FullMarathoner10546;
 
 public class Main {
     public static void main(String args[]) {
-        new DormitoryFloor2858();
+        new FullMarathoner10546();
     }
 }
