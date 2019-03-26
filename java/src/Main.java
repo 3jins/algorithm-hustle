@@ -1,7 +1,7 @@
-import baekjoon.coci.FullMarathoner10546;
+import baekjoon.acmicpc.regional.PhoneNumberList5052;
 
 public class Main {
     public static void main(String args[]) {
-        new FullMarathoner10546();
+        new PhoneNumberList5052();
     }
 }
