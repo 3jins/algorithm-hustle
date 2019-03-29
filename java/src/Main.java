@@ -1,7 +1,7 @@
-import baekjoon.acmicpc.regional.PrinterQueue1966;
+import baekjoon.koi.high.Tower2493;
 
 public class Main {
     public static void main(String args[]) {
-        new PrinterQueue1966();
+        new Tower2493();
     }
 }
