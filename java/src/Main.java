@@ -1,7 +1,7 @@
-import baekjoon.koi.high.Tower2493;
+import baekjoon.acmicpc.regional.Truck13335;
 
 public class Main {
     public static void main(String args[]) {
-        new Tower2493();
+        new Truck13335();
     }
 }
