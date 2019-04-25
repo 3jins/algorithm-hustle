@@ -1,4 +1,4 @@
-package baekjoon.koi.elmentary;
+package baekjoon.koi.elementary;
 
 import java.io.BufferedReader;
 import java.io.IOException;
