@@ -1,7 +1,7 @@
-import baekjoon.acmicpc.regional.Truck13335;
+import baekjoon.koi.elementary.TreasureIsland;
 
 public class Main {
     public static void main(String args[]) {
-        new Truck13335();
+        new TreasureIsland();
     }
 }
