@@ -1,7 +1,7 @@
-import baekjoon.koi.elementary.TreasureIsland;
+import baekjoon.koi.high.Tomato7576;
 
 public class Main {
     public static void main(String args[]) {
-        new TreasureIsland();
+        new Tomato7576();
     }
 }
