@@ -1,7 +1,7 @@
-import baekjoon.koi.high.Tomato7576;
+import baekjoon.NQueen9663;
 
 public class Main {
     public static void main(String args[]) {
-        new Tomato7576();
+        new NQueen9663();
     }
 }
