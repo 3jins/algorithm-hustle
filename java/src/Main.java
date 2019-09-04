@@ -1,7 +1,7 @@
-import baekjoon.NQueen9663;
+import baekjoon.acmicpc.regional.Stickers9465;
 
 public class Main {
     public static void main(String args[]) {
-        new NQueen9663();
+        new Stickers9465();
     }
 }
