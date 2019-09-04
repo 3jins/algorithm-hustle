@@ -1,7 +1,7 @@
-import baekjoon.PinaryNumbers2193;
+import baekjoon.acmicpc.regional.SumOfSqareNumbers1699;
 
 public class Main {
     public static void main(String args[]) {
-        new PinaryNumbers2193();
+        new SumOfSqareNumbers1699();
     }
 }
