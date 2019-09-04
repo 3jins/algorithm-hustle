@@ -1,7 +1,7 @@
-import baekjoon.acmicpc.regional.SumOfSqareNumbers1699;
+import baekjoon.PurchasingCards11052;
 
 public class Main {
     public static void main(String args[]) {
-        new SumOfSqareNumbers1699();
+        new PurchasingCards11052();
     }
 }
