@@ -1,22 +1,31 @@
-import kakao.recruitment2019.OpenChattingRoom;
+import kakao.recruitment2019.FailureRate;
 
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        String[][] recordList = {
-                {"Enter uid1234 Muzi", "Enter uid4567 Prodo", "Leave uid1234", "Enter uid1234 Prodo", "Change uid4567 Ryan"},
+        int[] numStageList = {
+                5, 4, 3, 5
         };
-        String[][] answerList = {
-                {"Prodo님이 들어왔습니다.", "Ryan님이 들어왔습니다.", "Prodo님이 나갔습니다.", "Prodo님이 들어왔습니다."},
+        int[][] stagesList = {
+                {2, 1, 2, 6, 2, 4, 3, 3},
+                {4, 4, 4, 4, 4},
+                {4, 4, 4, 4, 4},
+                {4, 4, 4, 4, 4},
+        };
+        int[][] answerList = {
+                {3, 4, 2, 1, 5},
+                {4, 1, 2, 3},
+                {1, 2, 3},
+                {4, 1, 2, 3, 5},
         };
 
-        int tc = 0;
-        for (String[] record : recordList) {
-            String[] result = (new OpenChattingRoom()).getFinalMessages(record);
-            boolean testResult = Arrays.deepEquals(answerList[tc], result);
+        int numTc = numStageList.length;
+        for (int tc = 0; tc < numTc; tc++) {
+            int[] result = (new FailureRate()).getStagesArrangedByFailureRate(numStageList[tc], stagesList[tc]);
+            boolean testResult = Arrays.equals(answerList[tc], result);
             if (!testResult) {
-                System.out.println(Arrays.deepToString(result));
+                System.out.println(Arrays.toString(result));
             } else {
                 System.out.println("pass");
             }
