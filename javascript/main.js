@@ -1,43 +1,37 @@
 const _ = require('lodash');
-const { addTwoNumbers: solution, makeLinkedListFromArray, makeNumberFromLinkedList } = require('./leetcode/addTwoNumbers2');
+const { solution } = require('./programmers/level2/makingBigNumber');
 
 const testCases = [
   {
-    test: [makeLinkedListFromArray([2, 4, 3]), makeLinkedListFromArray([5, 6, 4])],
-    expected: {
-      val: 7, next: {
-        val: 0, next: {
-          val: 8, next: null,
-        }
-      }
-    },
+    params: ['1924', 2],
+    expected: '94',
   },
   {
-    test: [makeLinkedListFromArray([3, 1]), makeLinkedListFromArray([0, 9, 1])],
-    expected: {
-      val: 3, next: {
-        val: 0, next: {
-          val: 2, next: null,
-        }
-      }
-    },
+    params: ['1231234', 3],
+    expected: '3234',
   },
   {
-    test: [makeLinkedListFromArray([1]), makeLinkedListFromArray([9, 9])],
-    expected: {
-      val: 0, next: {
-        val: 0, next: {
-          val: 1, next: null,
-        }
-      }
-    },
+    params: ['4177252841', 4],
+    expected: '775841',
   },
+  {
+    params: ['1911', 3],
+    expected: '9',
+  },
+  {
+    params: [new Array(1000000).fill('9').join(''), 999999],
+    expected: '9',
+  }
 ];
 testCases.forEach((testCase, testNo) => {
-  const { test, expected } = testCase;
-  const result = solution(...test);
-  console.log(
-    // `test #${testNo}:\t${_.isEqual(result, expected) ? 'pass' : `fail, expected <${expected}> but result is <${result}>`}`
-    `test #${testNo}:\t${_.isEqual(result, expected) ? 'pass' : `fail, expected <${makeNumberFromLinkedList(expected)}> but result is <${makeNumberFromLinkedList(result)}>`}`
-  );
+  const { params, expected } = testCase;
+  const result = solution(...params);
+  const isPass = _.isEqual(result, expected);
+  const color = isPass ? '\x1b[32m%s\x1b[0m' : '\x1b[31m%s\x1b[0m'
+  console.log(color, `test #${testNo}:\t${isPass ? 'PASS' : 'FAIL'}`);
+  console.log(`  params: ${params.join(', ')}`);
+  console.log(`  result: ${result}`);
+  if (!isPass) {
+    console.log(`  expected <${expected}> but result is <${result}>`);
+  }
 });
