@@ -1,21 +1,27 @@
-import programmers.level3.MostFarNode;
+import programmers.level3.Rank;
 
 public class Main {
     public static void main(String[] args) {
         int[] param1List = {
-                6,
+                5,
+                // 5,
+                // 5,
         };
         int[][][] param2List = {
-                {{3, 6}, {4, 3}, {3, 2}, {1, 3}, {1, 2}, {2, 4}, {5, 2}},
+                {{4, 3}, {4, 2}, {3, 2}, {1, 2}, {2, 5}},
+                // {{1, 2}, {1, 5}, {2, 3}, {3, 4}},
+                // {{1, 2}, {4, 5}, {2, 3}, {3, 4}},
         };
         int[] expectations = {
-                3,
+                2,
+                // 1,
+                // 5,
         };
 
-        MostFarNode mostFarNode = new MostFarNode();
+        Rank rank = new Rank();
         int tc = 0;
         while (tc < expectations.length) {
-            int result = mostFarNode.solution(param1List[tc], param2List[tc]);
+            int result = rank.solution(param1List[tc], param2List[tc]);
             if (result == expectations[tc]) System.out.println("pass");
             else System.out.println(result);
             tc++;
