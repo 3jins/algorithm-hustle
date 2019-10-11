@@ -1,24 +1,24 @@
-import kakao.recruitment2020.LockAndKey;
+import programmers.level3.Budget;
 
 public class Main {
     public static void main(String[] args) {
-        int[][][] param1List = {
-                {{0, 0, 0}, {1, 0, 0}, {0, 1, 1}},
+        int[][] params1 = {
+                {120, 110, 140, 150},
         };
-        int[][][] param2List = {
-                {{1, 1, 1}, {1, 1, 0}, {1, 0, 1}},
+        int[] params2 = {
+                485,
         };
-        boolean[] expectations = {
-               true,
+        int[] expectations = {
+                127,
         };
-
-        LockAndKey lockAndKey = new LockAndKey();
-        int tc = 0;
-        while (tc < expectations.length) {
-            boolean result = lockAndKey.solution(param1List[tc], param2List[tc]);
-            if (result == expectations[tc]) System.out.println("pass");
-            else System.out.println(result);
-            tc++;
+        int numTc = expectations.length;
+        for (int tc = 0; tc < numTc; tc++) {
+            int result = (new Budget()).solution(params1[tc], params2[tc]);
+            if (result == expectations[tc]) {
+                System.out.println("pass");
+            } else {
+                System.out.println(result);
+            }
         }
     }
 }
